@@ -1,0 +1,23 @@
+{
+  "name": "database-backup-management-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "start:dev": "nodemon --watch src --ignore backups ./src/index.js",
+    "start:prod": "pm2 restart ecosystem.config.json"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "archiver": "^7.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "fs": "^0.0.1-security",
+    "googleapis": "^144.0.0",
+    "path": "^0.12.7",
+    "tslib": "^2.7.0",
+    "zip-a-folder": "^3.1.7"
+  }
+}

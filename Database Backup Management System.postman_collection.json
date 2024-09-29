@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "21e22862-8164-45c3-aa0f-06e46ea8d5aa",
+		"name": "Database Backup Management System",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19667438",
+		"_collection_link": "https://www.postman.com/speeding-moon-9762-1/workspace/database-backup-management-system/collection/19667438-21e22862-8164-45c3-aa0f-06e46ea8d5aa?action=share&source=collection_link&creator=19667438"
+	},
+	"item": [
+		{
+			"name": "download-backup",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/download-backup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"download-backup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "download-backup-drive",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/backup/google-drive",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"backup",
+						"google-drive"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
